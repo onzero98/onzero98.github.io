@@ -10,6 +10,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  font-size: $type-size-3;
+  
 
   &__inner-wrap {
     @include clearfix;
@@ -23,7 +25,8 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    font-family: $serif;
+    font-weight: bold;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -48,6 +51,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
+  font-family: $helvetica; //블로그 타이틀 폰트 바꾸기
   align-self: center;
   font-weight: bold;
   // z-index: 20;
