@@ -2,7 +2,7 @@
 title:  "Python - 추상화" 
 
 categories:
-  -  Python
+  -  Python level 1
 tags:
   - [Programming, Python]
 
