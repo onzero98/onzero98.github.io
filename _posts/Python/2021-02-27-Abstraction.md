@@ -96,8 +96,9 @@ Welcome to my blog
 
 <br>
 
-
 ***
-    개인 기록용 스터디 블로그 입니다.
+
+개인 기록용 스터디 블로그 입니다.
+{: .notice--warning}
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}

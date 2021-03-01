@@ -80,8 +80,9 @@ print("오늘은 {}년 {}월 {}일입니다.".format(year, month, day))
 
 <br>
 
-
 ***
-    개인 기록용 스터디 블로그 입니다.
+
+개인 기록용 스터디 블로그 입니다.
+{: .notice--warning}
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
