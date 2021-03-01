@@ -74,15 +74,19 @@ print(burger_price * 2 + fries_price * 3 + coke_price * 2))
 
 ```python 
 def hello(name):
-	print("Hello")
+    	print("Hello")
 	print(name)
-	print("Welcome to my blog)
+	print("Welcome to my blog")
 	
 hello("onzero98")
 ```
 
-　name 이라는 파라미터 안에 문자열 "onzero98" 이 들어감으로서   
-　hello() 함수는 "Hello onzero98 Welcome to my blog" 라는 내용을 출력할 것이다.
+```python 
+Hello
+onzero98
+Welcome to my blog
+```
+　name 이라는 파라미터 안에 문자열 "onzero98" 이 들어감으로서 hello() 함수는 내용을 출력할 것이다.
 
 ### 객체 『Object』
 
