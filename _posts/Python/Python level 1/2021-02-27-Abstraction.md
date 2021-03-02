@@ -26,6 +26,7 @@ last_modified_at:
 　등으로 나뉘게 된다 .   
 <br>
 
+***
 ### 변수 『Variable』
 
 > 값을 저장 .   
@@ -68,7 +69,9 @@ print(burger_price * 2 + fries_price * 3 + coke_price * 2))
 
 　변수에서 한번만 수정하면 되니 만일 코드를 수정하게 된다면 더욱 편할것이다.   
 
- 
+<br>
+
+***
 ### 함수 『Function』
 
 > 명령을 저장 .   
@@ -91,7 +94,9 @@ onzero98
 Welcome to my blog
 ```
 　name 이라는 파라미터 안에 문자열 "onzero98" 이 들어감으로서 hello() 함수는 내용을 출력할 것이다.   
+<br>
 
+***
 ### 객체 『Object』
 
 <br>
