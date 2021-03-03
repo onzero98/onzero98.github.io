@@ -11,4 +11,6 @@ sidebar_main: true
 ***
 
 {% assign posts = site.categories.Python %}
+{% assign posts = site.categories.['Python 초급'] %}
+{% assign posts = site.categories.['Python Coding'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

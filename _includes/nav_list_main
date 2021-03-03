@@ -34,6 +34,13 @@
             </ul>
            
 		<span class="nav__sub-title">📂 Python</span>
+			<ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python Coding" %}
+                        <li><a href="/categories/python" class="">파이썬 코딩 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python 초급" %}
