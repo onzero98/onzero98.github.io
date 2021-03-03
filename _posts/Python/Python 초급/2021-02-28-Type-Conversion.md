@@ -2,7 +2,7 @@
 title:  "Python - 형 변환" 
 
 categories:
-  -  Python level 1
+  -  Python 초급
 tags:
   - [Programming, Python]
 
