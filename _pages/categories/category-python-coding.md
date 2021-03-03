@@ -1,7 +1,7 @@
 ---
-title: "Python 개념"
+title: "Python 코딩"
 layout: archive
-permalink: categories/python/concepts
+permalink: categories/python/coding
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Python 초급'] %}
+{% assign posts = site.categories.['Python Coding'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

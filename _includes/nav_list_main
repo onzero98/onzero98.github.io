@@ -37,14 +37,14 @@
 			<ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python Coding" %}
-                        <li><a href="/categories/python" class="">파이썬 코딩 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/python/coding" class="">파이썬 코딩 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python 초급" %}
-                        <li><a href="/categories/python" class="">파이썬 초급 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/python/concepts" class="">파이썬 초급 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
