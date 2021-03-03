@@ -1,7 +1,7 @@
 ---
 title: "Python 코딩"
 layout: archive
-permalink: categories/python/coding
+permalink: categories/python-coding
 author_profile: true
 sidebar_main: true
 ---

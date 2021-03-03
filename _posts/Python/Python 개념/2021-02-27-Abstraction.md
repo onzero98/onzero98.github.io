@@ -2,9 +2,9 @@
 title:  "Python - 추상화" 
 
 categories:
-  -  Python 초급
+  -  Python Concepts
 tags:
-  - [Programming, Python]
+  - [Programming, Python 개념]
 
 toc: true
 toc_sticky: true

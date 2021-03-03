@@ -2,9 +2,9 @@
 title:  "Python - 형 변환" 
 
 categories:
-  -  Python 초급
+  -  Python Concepts
 tags:
-  - [Programming, Python]
+  - [Programming, Python 개념]
 
 toc: true
 toc_sticky: true
