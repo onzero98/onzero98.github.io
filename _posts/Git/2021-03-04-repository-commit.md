@@ -15,7 +15,7 @@ last_modified_at:
 
 <br>
 
-# Git 을 사용하기 위한 기본 개념
+# 🔔 Git 을 사용하기 위한 기본 개념
 
 - 레포지토리 『Repository』
 - 커밋 『Commit』
