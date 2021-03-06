@@ -21,7 +21,11 @@ last_modified_at:
 - 커밋 수정
 - 두 커밋 비교
 - HEAD의 의미
+<<<<<<< HEAD
 - Git Reset
+=======
+- git reset
+>>>>>>> 793b04af077c63ec8b0e02ab64048725d2b8e5ad
 
 ## 커밋 히스토리
 ```bash
