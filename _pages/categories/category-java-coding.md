@@ -1,7 +1,7 @@
 ---
-title: "JAVA 프로그래밍"
+title: "JAVA 코딩"
 layout: archive
-permalink: categories/java
+permalink: categories/java-coding
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Java %}
+{% assign posts = site.categories.['JAVA Coding']%}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

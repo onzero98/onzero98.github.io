@@ -27,8 +27,8 @@
         <span class="nav__sub-title">📂 JAVA</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "JAVA" %}
-                        <li><a href="/categories/java" class="">자바 ({{category[1].size}})</a></li>
+                    {% if category[0] == "JAVA Coding" %}
+                        <li><a href="/categories/java-coding" class="">자바 코딩 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
