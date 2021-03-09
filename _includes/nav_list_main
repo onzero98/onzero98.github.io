@@ -32,7 +32,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-           
+		    <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JAVA Concepts" %}
+                        <li><a href="/categories/java-concepts" class="">자바 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 		<span class="nav__sub-title">📂 Python</span>
 			<ul>
                 {% for category in site.categories %}
@@ -44,7 +50,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python Concepts" %}
-                        <li><a href="/categories/python-concepts" class="">파이썬 초급 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/python-concepts" class="">파이썬 개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
