@@ -27,7 +27,7 @@ last_modified_at:
 ## And 연산 (&&) 
 
 ```java
-　boolean newBoolean = m1() && m2() && m3();
+boolean newBoolean = m1() && m2() && m3();
 ```
 
 　`newBoolean` 이 `true` 가 되기 위해서는 `m1(), m2(), m3()` 가 모두 `true` 를 리턴해야 한다 .   
@@ -41,7 +41,7 @@ last_modified_at:
 ## Or 연산 (||)
 
 ```java
-　boolean newBoolean = m1() || m2() || m3();
+boolean newBoolean = m1() || m2() || m3();
 ```
 
 　`newBoolean` 이 `false` 가 되기 위해서는 `m1(), m2(), m3()` 가 모두 `false` 를 리턴해야 한다 .
