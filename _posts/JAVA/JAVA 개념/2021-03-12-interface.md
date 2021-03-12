@@ -81,6 +81,8 @@ public class Main {
 넓이 :28.259999999999998
 ```
 
+***
+
 # 추상화
 
 　인터페이스와 다르게 추상 클래스는 `변수` , `메소드` , `빈 메소드` 를 모두 사용 할 수 있다 .
@@ -108,6 +110,7 @@ public abstract class Shape {
 }
 ```
 
+Circle.java
 ```java
 public class Circle extends Shape{
     // 원주율
@@ -133,6 +136,7 @@ public class Circle extends Shape{
 }
 ```
 
+Main.java
 ```java
 import java.util.ArrayList;
 
@@ -153,6 +157,8 @@ public class Main {
 넓이 :28.259999999999998
 x : 3.0 y : 5.0
 ```
+
+***
 
 # 정리
 
