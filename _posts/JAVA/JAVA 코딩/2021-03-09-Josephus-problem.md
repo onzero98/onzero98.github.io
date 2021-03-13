@@ -2,7 +2,7 @@
 title:  "요세푸스 문제" 
 
 categories:
-  -  JAVA Coding
+  -  Java Coding
 tags:
   - [Programming, JAVA 코딩]
 

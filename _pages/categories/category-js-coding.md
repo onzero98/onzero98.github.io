@@ -1,7 +1,7 @@
 ---
-title: "JAVA 개념"
+title: "JAVASCRIPT 코딩"
 layout: archive
-permalink: categories/java-concepts
+permalink: categories/js-coding
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Java Concepts']%}
+{% assign posts = site.categories.['JS Coding']%}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

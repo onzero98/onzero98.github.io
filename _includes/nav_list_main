@@ -24,21 +24,38 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">📂 JAVA</span>
+        <span class="nav__sub-title">📂 Java</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "JAVA Coding" %}
+                    {% if category[0] == "Java Coding" %}
                         <li><a href="/categories/java-coding" class="">자바 코딩 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 		    <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "JAVA Concepts" %}
+                    {% if category[0] == "Java Concepts" %}
                         <li><a href="/categories/java-concepts" class="">자바 개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+			
+		<span class="nav__sub-title">📂 JavaScript</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JS Coding" %}
+                        <li><a href="/categories/js-coding" class="">자바스크립트 코딩 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+		    <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JS Concepts" %}
+                        <li><a href="/categories/js-concepts" class="">자바스크립트 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+			
 		<span class="nav__sub-title">📂 Python</span>
 			<ul>
                 {% for category in site.categories %}

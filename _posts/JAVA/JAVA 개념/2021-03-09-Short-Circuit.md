@@ -2,7 +2,7 @@
 title:  "숏서킷 연산" 
 
 categories:
-  -  JAVA Concepts
+  -  Java Concepts
 tags:
   - [Programming, JAVA 개념]
 

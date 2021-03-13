@@ -2,7 +2,7 @@
 title:  "인터페이스 & 추상화" 
 
 categories:
-  -  JAVA Concepts
+  -  Java Concepts
 tags:
   - [Programming, JAVA 개념]
 
