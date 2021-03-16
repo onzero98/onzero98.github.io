@@ -8,14 +8,7 @@
             📂 <span style="font-family:'BMJUA';">전체 글 수</style> <span style="font-family:'BMJUA';">{{sum}}</style> <span style="font-family:'BMJUA';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">📂 C/C++/C#</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+        <span class="nav__sub-title">📂 C#</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "C Sharp" %}
