@@ -91,6 +91,13 @@
             </ul>
 			<ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Html Css" %}
+                        <li><a href="/categories/html-css" class="">HTML/CSS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+			<ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Git" %}
                         <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
                     {% endif %}
