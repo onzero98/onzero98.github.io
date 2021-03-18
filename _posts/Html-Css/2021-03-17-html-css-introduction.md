@@ -13,7 +13,7 @@ date: 2021-03-17
 last_modified_at: 
 ---
 **repl.it 사이트를 사용하여 코딩 하였습니다.**   
-[[repl.it] 바로가기](https://replit.com/)
+[[repl.it] 바로가기](https://replit.com/){:target="_blank"}
 {: .notice--warning}
 
 # 소개
