@@ -180,6 +180,14 @@ HTML 파일을 작성할 때는 가장먼저 <!DOCTYPE> 선언을 해야 한다 
 
 ![image](https://user-images.githubusercontent.com/50429028/111862069-25f75d00-8996-11eb-9a33-3d3dde080545.png)
 
+***
+
+# `<span>` 태그
+
+　문장 내부에서 <div> 태그를 사용하면 `block` 요소 때문에 그 문장은 새로운 줄로 바로 이동 시켜버린다 .
+
+　문단이 이동되는 것이 싫다면 `inline` 요소를 갖고 있는 <span> 태그를 사용하면 된다 .
+
 <br>
 
 ***
