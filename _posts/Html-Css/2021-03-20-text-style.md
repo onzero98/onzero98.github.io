@@ -1,5 +1,5 @@
 ---
-title:  "텍스트 스타일링" 
+title:  "CSS 텍스트 스타일링" 
 
 categories:
   -  Html Css
@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2021-03-20
+date: 2021-03-20 14:10:10 +1000
 last_modified_at: 
 ---
 **repl.it 사이트를 사용하여 코딩 하였습니다.**   
