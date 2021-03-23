@@ -2,9 +2,9 @@
 title:  "HTML 이미지" 
 
 categories:
-  -  Html Css
+  -  Html
 tags:
-  - [HTML, CSS]
+  - [HTML, Frontend]
 
 toc: true
 toc_sticky: true

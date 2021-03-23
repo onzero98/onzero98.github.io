@@ -2,9 +2,9 @@
 title:  "CSS 상속" 
 
 categories:
-  -  Html Css
+  - Css
 tags:
-  - [HTML, CSS]
+  - [CSS, Frontend]
 
 toc: true
 toc_sticky: true

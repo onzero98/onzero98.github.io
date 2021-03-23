@@ -2,9 +2,9 @@
 title:  "HTML 태그 정리" 
 
 categories:
-  -  Html Css
+  -  Html
 tags:
-  - [HTML, CSS]
+  - [HTML, Frontend]
 
 toc: true
 toc_sticky: true
