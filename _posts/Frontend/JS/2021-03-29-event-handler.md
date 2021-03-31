@@ -1,5 +1,5 @@
 ---
-title:  "JS 이벤트 - 핸들러 , 객체" 
+title:  "JS 이벤트 - 핸들러 , 객체 , 프로퍼티" 
 
 categories:
   -  JS Concepts
@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 date: 2021-03-29 12:10:10 +1000
-last_modified_at: 
+last_modified_at: 2021-03-31
 ---
 
 # 이벤트
@@ -45,6 +45,9 @@ last_modified_at:
 |　scroll			|　스크롤 바가 움직일 때|
 |<b style="color:orange">윈도우 창 이벤트</b>||
 |　resize			|　윈도우 사이즈를 움직일 때 발생|
+
+
+　이 외에도 여러 이벤트가 존재한다 .
 
 ***
 
@@ -128,6 +131,50 @@ btn2.addEventListener('click', event2);
 |　<span style="opacity:0.6">ctrlKey				|　<span style="opacity:0.6">이벤트가 발생할 때 ctrl키를 눌렀는지|
 |　<span style="opacity:0.6">shiftKey				|　<span style="opacity:0.6">이벤트가 발생할 때 shift키를 눌렀는지|
 |　<span style="opacity:0.6">metaKey				|　<span style="opacity:0.6">이벤트가 발생할 때 meta키를 눌렀는지 (window는 window키, mac은 cmd키)|
+
+***
+
+# 마우스 프로퍼티 상세 정리
+
+> clientX, clientY
+
+　클라이언트 영역 내에서 마우스의 좌표 정보를 담는다 . 
+```
+이벤트가 발생한 순간에 브라우저가 콘텐츠를 표시할 수 있는 영역 .
+```
+　clientX : 브라우저가 표시하는 화면 내에서 마우스의 X좌표 위치 .   
+　clientY : 브라우저가 표시하는 화면 내에서 마우스의 Y좌표 위치 .
+
+　client 값은 그 순간 보여지는 화면을 기준으로 계산하기 때문에 
+
+　스크롤 위치와는 무관하게 항상 보여지는 화면의 좌측 상단의 모서리 위치를 (0, 0)으로 계산 .
+
+> offsetX, offsetY
+
+　offset 프로퍼티는 이벤트가 발생한 target이 기준 .
+```
+div 등 박스 영역 안의 영역 .
+```
+offsetX : 이벤트가 발생한 target 내에서 마우스의 X좌표 위치 .   
+offsetY : 이벤트가 발생한 target 내에서 마우스의 Y좌표 위치 .
+
+　offset 값도 이벤트가 발생한 대상을 기준으로 계산하기 때문에 
+
+　스크롤 위치와는 무관하게 항상 대상의 좌측 상단의 모서리 위치를 (0, 0)으로 계산합니다.
+
+> pageX, pageY
+
+　page 프로퍼티는 전체 문서를 기준으로 마우스 좌표 정보를 담는다 . 
+```
+페이지 전체 영역 .
+```
+pageX : 전체 문서 내에서 마우스의 X좌표 위치 .
+pageY : 전체 문서 내에서 마우스의 Y좌표 위치 .
+
+　스크롤로 인해서 보이지 않게된 화면의 영역까지 포함해서 측정 .
+
+**그림 정리**
+![mouse](https://user-images.githubusercontent.com/50429028/113141822-2977c780-9265-11eb-9aed-fffa814b4874.png)
 
 <br>
 
