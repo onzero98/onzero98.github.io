@@ -4,7 +4,7 @@ title:  "요소 노드"
 categories:
   -  JS Concepts
 tags:
-  - [Programming, JS 개념]
+  - [JS 개념]
 
 toc: true
 toc_sticky: true

@@ -4,7 +4,7 @@ title:  "Python - 사전"
 categories:
   -  Python Concepts
 tags:
-  - [Programming, Python 개념]
+  - [Python 개념]
 
 toc: true
 toc_sticky: true

@@ -4,7 +4,7 @@ title:  "자바스크립스 시작하기"
 categories:
   -  JS Concepts
 tags:
-  - [Programming, JS 개념]
+  - [JS 개념]
 
 toc: true
 toc_sticky: true

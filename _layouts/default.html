@@ -62,12 +62,28 @@ classes: wide
         {% include_cached footer.html %}
       </footer>
     </div>
-
-    <aside class="sidebar__top">
-      <a href="#site-nav"> <i class="fas fa-angle-double-up fa-2x"></i></a>
-    </aside>
-
+	
+	<button class="go-to-top">
+	  <a href="#site-nav" style="color:white"> <i class="fas fa-angle-double-up fa-3x"></i> </a>
+	</button>
+	
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        $( window ).scroll( function() {
+          if ( $( this ).scrollTop() > 200 ) {
+            $( '.go-to-top' ).fadeIn();
+          } else {
+            $( '.go-to-top' ).fadeOut();
+          }
+        } );
+        $( '.go-to-top' ).click( function() {
+          $( 'html, body' ).animate( { scrollTop : 0 }, 400 );
+          return false;
+        } );
+      } );
+    </script>
     {% include scripts.html %}
-
+	
   </body>
 </html>

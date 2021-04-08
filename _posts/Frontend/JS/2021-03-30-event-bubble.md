@@ -4,7 +4,7 @@ title:  "JS 이벤트 - 버블링 , 캡쳐링 , 위임"
 categories:
   -  JS Concepts
 tags:
-  - [Programming, JS 개념]
+  - [JS 개념]
 
 toc: true
 toc_sticky: true

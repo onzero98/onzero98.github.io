@@ -4,7 +4,7 @@ title:  "Python - 파일 읽고 쓰기"
 categories:
   -  Python Concepts
 tags:
-  - [Programming, Python 개념]
+  - [Python 개념]
 
 toc: true
 toc_sticky: true

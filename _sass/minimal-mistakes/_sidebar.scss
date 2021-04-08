@@ -98,12 +98,17 @@
   }
 }
 
-.sidebar__top {
+.go-to-top {
+  display:none;
+  background-color: transparent !important;
+  border: none;
+  outline: none;
   position: fixed;
   bottom: 1.5em;
   right: 2em;
   z-index: 10;
 }
+
 
 .splash .sidebar__right {
   @include breakpoint($large) {

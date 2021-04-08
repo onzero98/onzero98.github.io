@@ -4,7 +4,7 @@ title:  "커밋 다루기"
 categories:
   -  Git
 tags:
-  - [Git, Github]
+  - [Github]
 
 toc: true
 toc_sticky: true

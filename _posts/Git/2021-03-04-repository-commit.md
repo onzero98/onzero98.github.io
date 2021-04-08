@@ -4,7 +4,7 @@ title:  "레포지토리 & 커밋"
 categories:
   -  Git
 tags:
-  - [Git, Github]
+  - [Github]
 
 toc: true
 toc_sticky: true

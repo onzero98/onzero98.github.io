@@ -4,7 +4,7 @@ title:  "JS 이벤트 - 핸들러 , 객체 , 프로퍼티"
 categories:
   -  JS Concepts
 tags:
-  - [Programming, JS 개념]
+  - [JS 개념]
 
 toc: true
 toc_sticky: true

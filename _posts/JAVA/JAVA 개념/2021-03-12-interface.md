@@ -4,7 +4,7 @@ title:  "인터페이스 & 추상화"
 categories:
   -  Java Concepts
 tags:
-  - [Programming, JAVA 개념]
+  - [JAVA 개념]
 
 toc: true
 toc_sticky: true
