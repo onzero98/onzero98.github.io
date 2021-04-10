@@ -64,13 +64,6 @@
             </ul>
 			
         <span class="nav__sub-title">📂 Frontend</span>
-		    <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JS Concepts" %}
-                        <li><a href="/categories/js-concepts" class="">자바스크립트 개념 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 			<ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Html" %}
@@ -85,6 +78,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+		    <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JS Concepts" %}
+                        <li><a href="/categories/js-concepts" class="">JS 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+			<ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Frontend" %}
+                        <li><a href="/categories/js-concepts" class="">프론트엔드 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
 			
         <span class="nav__sub-title">📂 etc</span>
             <ul>
