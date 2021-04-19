@@ -8,22 +8,36 @@
             📂 <span style="font-family:'BMJUA';">전체 글 수</style> <span style="font-family:'BMJUA';">{{sum}}</style> <span style="font-family:'BMJUA';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">📂 Java</span>
-            <ul>
+		<span class="nav__sub-title">📂 Frontend</span>
+			<ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Java Coding" %}
-                        <li><a href="/categories/java-coding" class="">자바 코딩 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Html" %}
+                        <li><a href="/categories/html" class="">HTML({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+			<ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Css" %}
+                        <li><a href="/categories/css" class="">CSS({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 		    <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Java Concepts" %}
-                        <li><a href="/categories/java-concepts" class="">자바 개념 ({{category[1].size}})</a></li>
+                    {% if category[0] == "JS Concepts" %}
+                        <li><a href="/categories/js-concepts" class="">JavaScript ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-			
+			<ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Frontend" %}
+                        <li><a href="/categories/frontend" class="">프론트엔드 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+	  
 		<span class="nav__sub-title">📂 Python</span>
 			<ul>
                 {% for category in site.categories %}
@@ -36,6 +50,22 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Python Concepts" %}
                         <li><a href="/categories/python-concepts" class="">파이썬 개념 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">📂 Java</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Java Coding" %}
+                        <li><a href="/categories/java-coding" class="">자바 코딩 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+		    <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Java Concepts" %}
+                        <li><a href="/categories/java-concepts" class="">자바 개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -62,37 +92,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-			
-        <span class="nav__sub-title">📂 Frontend</span>
-			<ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Html" %}
-                        <li><a href="/categories/html" class="">HTML 개념({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-			<ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Css" %}
-                        <li><a href="/categories/css" class="">CSS 개념({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-		    <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JS Concepts" %}
-                        <li><a href="/categories/js-concepts" class="">JS 개념 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-			<ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Frontend" %}
-                        <li><a href="/categories/js-concepts" class="">프론트엔드 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
 			
         <span class="nav__sub-title">📂 etc</span>
             <ul>
